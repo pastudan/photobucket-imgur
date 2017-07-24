@@ -1,6 +1,6 @@
 This code converts photobucket URLs on your forum to Imgur URLs. It does so by connecting to your DB, finding all photobucket URLs, re-uploading them to Imgur, and replacing your forum's raw db records.
 
-Since this connects directly to your forum's database, this is potentially dangerous. ⚠️⚠️**Make database backups and don't try this unless you fully understand the code and what it's doing**.⚠️⚠️ I also make no guarantee that by running this code you are operating within PhotoBucket or Imgur's TOS. Please read those carefully and decide for yourself.
+Since this connects directly to your forum's database, this is potentially dangerous. ️⚠️**Make database backups and don't try this unless you fully understand the code and what it's doing**.️⚠️ I also make no guarantee that by running this code you are operating within PhotoBucket or Imgur's TOS. Please read those carefully and decide for yourself.
 
 To get started, first `yarn`, then find all your forum posts that have photobucket URLs and export them to a text file. The file format (txt, csv, tsv, etc) doesn't really matter since we are just running a regular expression across the whole file to find exact URLs.
 
